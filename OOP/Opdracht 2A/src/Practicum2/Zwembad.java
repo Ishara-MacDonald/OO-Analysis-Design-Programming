@@ -6,8 +6,6 @@ public class Zwembad {
     private double diepte;
 
     public Zwembad(){}
-
-
     public Zwembad(double breedte, double lengte, double diepte){
         this.breedte = breedte;
         this.lengte = lengte;
@@ -31,6 +29,4 @@ public class Zwembad {
         String s = "Dit zwembad is " + breedte + " meter breed, " + lengte +  " meter lang, en " + diepte + " meter diep";
         return s;
     }
-
-
 }
