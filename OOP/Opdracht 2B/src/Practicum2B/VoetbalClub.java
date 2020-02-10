@@ -42,9 +42,7 @@ public class VoetbalClub {
     }
 
     public String toString(){
-        int aantalPunten = (aantalGewonnen * 3) + aantalGelijk;
-        int aantalGespeeld  = aantalGelijk + aantalVerloren + aantalGewonnen;
-        String s = String.format("%s      %d %d %d %d %d", clubNaam, aantalGespeeld , aantalGewonnen, aantalGelijk, aantalVerloren, aantalPunten);
+        String s = String.format("%s      %d %d %d %d %d", clubNaam, aantalGespeeld() , aantalGewonnen, aantalGelijk, aantalVerloren, aantalPunten());
         return s;
     }
 }
