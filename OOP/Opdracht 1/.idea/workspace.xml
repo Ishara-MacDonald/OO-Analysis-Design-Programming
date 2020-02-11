@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a48d1d6d-f527-4732-a19c-cfcac2453c72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Opdracht 2B/.idea/Opdracht 2B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Opdracht 2B/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Opdracht 2B/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Opdracht 2B/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Opdracht 2B/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 2B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 2B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 2B/src/Practicum2B/VoetbalClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 2B/src/Practicum2B/VoetbalClub.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1XcQ1i1tE3xhcpFXXab5xOpvak3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Opdracht 2A" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a48d1d6d-f527-4732-a19c-cfcac2453c72" name="Default Changelist" comment="" />
+      <created>1581342689940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581342689940</updated>
+      <workItem from="1581342691196" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581342713826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581342713826" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1581342728732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581342728732" />
+  </component>
+</project>
