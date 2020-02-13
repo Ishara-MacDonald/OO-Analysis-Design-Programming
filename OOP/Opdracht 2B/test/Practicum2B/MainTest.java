@@ -34,6 +34,7 @@ class MainTest {
     @Test
     public void TestHerhaal(){
         int count = 0;
+        int punt = 0;
         for (int i = 0; i<=10; i++){
             feij.verwerkResultaat('w');
             feij.verwerkResultaat('v');
@@ -42,6 +43,7 @@ class MainTest {
             count += 1;
         }
         assertEquals(count, feij.aantalGespeeld());
+        assertEquals(punt, feij.aantalPunten());
     }
 
 }
