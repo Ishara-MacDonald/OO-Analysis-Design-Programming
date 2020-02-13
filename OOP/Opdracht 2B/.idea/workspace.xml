@@ -2,10 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c13da4c-7ffe-4565-876b-0d6c43241b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Practicum2B/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Opdracht 2B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Opdracht 2B.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/Excercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht2A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht2A/Zwembad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht2B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht2B/VoetbalClub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht2B/VoetbalClubTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht3B/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht3B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4A/Huis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4A/Persoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4B/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4B/AutoHuur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4B/Klant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercises/src/Opdracht4B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OO-Analysis-Design-Programming/.idea/Opdracht 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OO-Analysis-Design-Programming/Opdracht 3B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OO-Analysis-Design-Programming/Opdracht 4a.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Opdracht 4A/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/OO-Analysis-Design-Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/OO-Analysis-Design-Programming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/dictionaries/Ikari_Rampage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercises/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercises/opdracht1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercises/opdracht1/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 3B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 3B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 4A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 4A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 4B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 4B/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 4B/out/production/Opdracht 4B/AutoHuur.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 4B/out/production/Opdracht 4B/AutoHuur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdracht 4B/src/AutoHuur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdracht 4B/src/AutoHuur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +145,7 @@
       <workItem from="1581342675759" duration="14000" />
       <workItem from="1581498798742" duration="16000" />
       <workItem from="1581506465330" duration="237000" />
+      <workItem from="1581588956521" duration="232000" />
     </task>
     <servers />
   </component>
