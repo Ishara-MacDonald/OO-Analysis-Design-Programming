@@ -12,6 +12,6 @@ public class Klant {
     public double getKorting() {return kortingsPercentage;}
 
     public String toString() {
-        return String.format("%s (korting: %.2f procent)", naam, kortingsPercentage);
+        return String.format("%s (korting: %.2f procent)\n", naam, kortingsPercentage);
     }
 }

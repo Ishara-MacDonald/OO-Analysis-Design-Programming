@@ -27,9 +27,14 @@ public class AutoHuur {
         return huurder;
     }
 
-    private double totaalPrijs(){
+    public double totaalPrijs(){
+        double discount;
+        double percentageDiscouunt = huurder.getKorting();
         double totaal =  aantalDagen * gehuurdeAuto.getPrijsPerDag();
-        double discount = totaal / huurder.getKorting();
+
+        if(percentageDiscouunt != 0.0){discount = totaal / percentageDiscouunt;}
+        else{discount = 0.0;}
+
         return  totaal - discount;
     }
 
@@ -37,15 +42,16 @@ public class AutoHuur {
         String auto = "er is geen auto bekend\n";
         String klant = "er is geen huurder bekend\n";
         String resultaat = "aantal dagen: 0 en dat kost 0.0";
+
         if((huurder != null) && (gehuurdeAuto != null)){
-            auto = String.format("autotype: %s met prijs per dag %.1f\n", gehuurdeAuto, gehuurdeAuto.getPrijsPerDag());
-            klant = String.format("autotype: %s met prijs per dag %.1f\n", huurder, huurder.getKorting());
-            resultaat = String.format("aantal dagen: %d en dat kost %.1f", aantalDagen, totaalPrijs());
+            auto = gehuurdeAuto.toString();
+            klant = huurder.toString();
+            resultaat = String.format("aantal dagen: %d en dat kost %.1f\n", aantalDagen, totaalPrijs());
         }
         else if(gehuurdeAuto != null){
-            auto = String.format("autotype: %s met prijs per dag %.1f\n", gehuurdeAuto, gehuurdeAuto.getPrijsPerDag());
+            auto = gehuurdeAuto.toString();
         }else if(huurder != null){
-            klant = String.format("autotype: %s met prijs per dag %.1f\n", huurder, huurder.getKorting());
+            klant = huurder.toString();
         }
         return auto + klant + resultaat;
     }

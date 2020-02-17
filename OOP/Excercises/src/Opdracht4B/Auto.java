@@ -13,6 +13,6 @@ public class Auto {
     public double getPrijsPerDag() {return prijsPerDag;}
 
     public String toString() {
-        return String.format("%s met prijs per dag: %.2f", type, prijsPerDag);
+        return String.format("%s met prijs per dag: %.2f\n", type, prijsPerDag);
     }
 }
