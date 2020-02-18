@@ -32,11 +32,11 @@ public class Klas {
     }
 
     public String toString(){
-        String klasEnAantal = String.format("In klas %s zutten de volgende leerlingen\n", klasCode);
-        String klasGenoten = "";
+        String klas = String.format("In klas %s zitten de volgende leerlingen\n", klasCode);
+        String leerlingenEnCijfers = "";
         for(Leerling leerling : leerlingen){
-            klasGenoten = klasGenoten + leerling + "\n";
+            leerlingenEnCijfers = leerlingenEnCijfers + leerling + "\n";
         }
-        return klasEnAantal + klasGenoten;
+        return klas + leerlingenEnCijfers;
     }
 }
