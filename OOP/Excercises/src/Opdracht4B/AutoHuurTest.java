@@ -138,7 +138,7 @@ class AutoHuurTest {
     }
 
     public void expectedZeroPrice(){
-        String getPrice = ah1.toString().substring(ah1.toString().lastIndexOf(' ') + 1);
+            String getPrice = ah1.toString().substring(ah1.toString().lastIndexOf(' ') + 1);
         assertEquals("0,0", getPrice);
     }
 

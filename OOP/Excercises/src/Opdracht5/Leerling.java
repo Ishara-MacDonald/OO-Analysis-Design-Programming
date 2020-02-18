@@ -21,7 +21,6 @@ public class Leerling {
     }
 
     public String toString(){
-        System.out.println("cijfer");
         return String.format("%s heeft cijfer: %.1f", naam, cijfer);
     }
 }
