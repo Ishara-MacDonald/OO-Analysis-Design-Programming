@@ -41,12 +41,12 @@ public class AutoHuur {
     public String toString(){
         String auto = "er is geen auto bekend\n";
         String klant = "er is geen huurder bekend\n";
-        String resultaat = "aantal dagen: 0 en dat kost 0.0";
+        String resultaat = "aantal dagen: 0 en dat kost 0,0";
 
         if((huurder != null) && (gehuurdeAuto != null)){
             auto = gehuurdeAuto.toString();
             klant = huurder.toString();
-            resultaat = String.format("aantal dagen: %d en dat kost %.1f\n", aantalDagen, totaalPrijs());
+            resultaat = String.format("aantal dagen: %d en dat kost %.1f", aantalDagen, totaalPrijs());
         }
         else if(gehuurdeAuto != null){
             auto = gehuurdeAuto.toString();
