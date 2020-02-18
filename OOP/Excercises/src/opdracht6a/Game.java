@@ -28,11 +28,20 @@ public class Game {
     }
 
     public boolean equals(Object andereObject){
-        return false;
+        boolean heeftSpelAl = true;
+
+        if(andereObject instanceof Game){
+            Game ownedGame = (Game) andereObject;
+            if(this.naam.equals(ownedGame.naam) &&
+                    (this.releaseJaar == ownedGame.releaseJaar)){
+                heeftSpelAl = false;
+            }
+        }
+        return !heeftSpelAl;
     }
 
     public String toString(){
-        return "heyt";
+        return String.format("%s, uitgegeven in %s, nieuwprijs: %.2f nu voor: %.2f\n", naam, releaseJaar, nieuwPrijs, huidigeWaarde());
     }
 
 }
