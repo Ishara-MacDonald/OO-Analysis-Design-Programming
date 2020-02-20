@@ -32,6 +32,11 @@ class AutoHuurTest {
     @Test
     public void testNoData(){
         typeTest = "Test 1, no data\n";
+        System.out.println(typeTest);
+        AutoHuur ah2 = new AutoHuur();
+        double result = ah2.totaalPrijs();
+        System.out.println(result);
+        assertEquals(0.0, result);
     }
 
     //Test 3
@@ -124,7 +129,6 @@ class AutoHuurTest {
         k.setKorting(10.0);
     }
 
-    @AfterEach
     public void showData(){
         System.out.println(ah1);
         System.out.println("\n");
