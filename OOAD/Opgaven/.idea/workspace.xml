@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87993b0b-ad8d-4289-aab8-ae9cfd01f963" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Fabrikant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Luchtvaartmaatschappij.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Vliegtuig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Vliegtuigtype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 04/Opgave4_1/Land.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 04/Opgave4_1/Luchthaven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 04/Opgave4_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opgave 04/Opgave4_1/RegistreerLuchthaven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten/Opdracht 4.1/Land.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten/Opdracht_4.1/Land.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten/Opdracht 4.1/Luchthaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten/Opdracht_4.1/Luchthaven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten/Opdracht 4.1/Opdrachten.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten/Opdracht_4.1/Opdrachten.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten/Opdracht 4.1/RegistreerLuchtHaven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten/Opdracht_4.1/RegistreerLuchtHaven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten/Opdracht 4.1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten/Opdracht_4.1/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten/Opdrachten.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten/Opdrachten.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opgave 03/~$gave 03 - Aantekeningen.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opgave 04/Opgave 04 - Uitwerking.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Opgave 04/Opgave 04 - Uitwerking.docx" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Main.java" />
+        <option value="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Luchtvaartmaatschappij.java" />
+        <option value="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Vliegtuig.java" />
+        <option value="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Vliegtuigtype.java" />
+        <option value="$PROJECT_DIR$/Opgave 03/Opdracht3_2/Fabrikant.java" />
+        <option value="$PROJECT_DIR$/Opgave 04/Opgave4_1/RegistreerLuchthaven.java" />
+        <option value="$PROJECT_DIR$/Opgave 04/Opgave4_1/Land.java" />
+        <option value="$PROJECT_DIR$/Opgave 04/Opgave4_1/Luchthaven.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/Ikari_Rampage.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-466" />
+    <option name="y" value="-8" />
+    <option name="width" value="1326" />
+    <option name="height" value="714" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Opgaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Opgaven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Opgaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Opgaven" type="462c0819:PsiDirectoryNode" />
+              <item name="Opgave 04" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/Program Files/jfx-13/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87993b0b-ad8d-4289-aab8-ae9cfd01f963" name="Default Changelist" comment="" />
+      <created>1583075898357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583075898357</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1784" height="968" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Opgave 03/Opdracht3_2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 03/Opdracht3_2/Luchtvaartmaatschappij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 03/Opdracht3_2/Vliegtuig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 03/Opdracht3_2/Vliegtuigtype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 03/Opdracht3_2/Fabrikant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 04/Opgave4_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 04/Opgave4_1/Land.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 04/Opgave4_1/RegistreerLuchthaven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opgave 04/Opgave4_1/Luchthaven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
