@@ -39,7 +39,7 @@ public class Persoon {
             for(Game game : games){
                 if(game.equals(sellingGame)){validSale = true;}} //true --> verkoper heeft het spel!
             if(!validSale){return false;}
-        }
+        }else{return false;}
 
         // heeft de koper dit spel al?
         if(!koper.games.isEmpty()) {
@@ -62,7 +62,8 @@ public class Persoon {
     }
 
     public String toString(){
-        String persoon = String.format("%s heeft een budget van %.2f en bezit de volgende games:\n", naam, budget);
+        String euro = "\u20ac";
+        String persoon = String.format("%s heeft een budget van %s%.2f en bezit de volgende games:\n", naam, euro, budget);
         String game = "";
         for(Game ownedGame : games){
             game = game + ownedGame.toString();

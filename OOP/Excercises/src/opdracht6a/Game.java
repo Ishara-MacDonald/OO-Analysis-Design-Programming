@@ -41,7 +41,9 @@ public class Game {
     }
 
     public String toString(){
-        return String.format("%s, uitgegeven in %s, nieuwprijs: %.2f nu voor: %.2f\n", naam, releaseJaar, nieuwPrijs, huidigeWaarde());
+        String euro = "\u20ac";
+
+        return String.format("%s, uitgegeven in %s; nieuwprijs: %s%.2f nu voor: %s%.2f\n", naam, releaseJaar, euro, nieuwPrijs, euro, huidigeWaarde());
     }
 
 }
