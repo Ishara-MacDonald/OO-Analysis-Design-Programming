@@ -161,7 +161,7 @@ class PersoonTest {
     public void testBudgetKoopDubbeleGameOnvoldoendeBudget(){
         boolean gelukt = koperArm.koop(game2);
         gelukt = koperArm.koop(game2);
-        assertEquals(1.00, Math.round(koperArm.getBudget() * 100)/100d, "koop() levert niet het goede budget op (game is al in bezit).");
+        assertEquals(1,00, Math.round(koperArm.getBudget() * 100)/100d, "koop() levert niet het goede budget op (game is al in bezit).");
     }
 
     @Test

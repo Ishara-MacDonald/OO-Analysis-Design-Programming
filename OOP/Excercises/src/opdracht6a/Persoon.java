@@ -1,6 +1,7 @@
 package opdracht6a;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class Persoon {
     private String naam;
@@ -63,14 +64,14 @@ public class Persoon {
 
     public String toString(){
         String euro = "\u20ac";
-        String persoon = String.format("%s heeft een budget van %s%.2f en bezit de volgende games:\n", naam, euro, budget);
+        String persoon = String.format(Locale.ENGLISH,"%s heeft een budget van %s%.2f en bezit de volgende games:\n", naam, euro, budget);
         String game = "";
         for(Game ownedGame : games){
             game = game + ownedGame.toString();
         }
 
         if(games.isEmpty()){
-            game = String.format("%s bezit nog geen games.\n", naam);
+            game = String.format(Locale.ENGLISH,"%s bezit nog geen games.\n", naam);
         }
 
         return persoon + game;

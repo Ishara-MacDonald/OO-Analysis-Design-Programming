@@ -92,8 +92,7 @@ class GameTest {
 
     @Test
     public void testToString(){
-        assertEquals("Mario Kart, uitgegeven in " + (ditJaar-1) + ", nieuwprijs: 50.00 nu voor: 35.00\n",
+        assertEquals("Mario Kart, uitgegeven in " + (ditJaar-1) + "; nieuwprijs: \u20ac50.00 nu voor: \u20ac35.00\n",
                 game1JrOud.toString(), "toString() geeft niet de juiste tekst terug.");
     }
-
 }
