@@ -6,12 +6,11 @@ import java.util.Locale;
 public class Persoon {
     private String naam;
     private double budget;
-    private ArrayList<Game> games;
+    private ArrayList<Game> games = new ArrayList<>();
 
     public Persoon(String naam, double budget){
         this.naam = naam;
         this.budget = budget;
-        this.games = new ArrayList<>();
     }
 
     public double getBudget() {
