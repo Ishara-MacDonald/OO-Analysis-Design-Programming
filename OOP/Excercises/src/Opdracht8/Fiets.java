@@ -1,5 +1,7 @@
 package Opdracht8;
 
+import static java.lang.Math.pow;
+
 public class Fiets extends Voertuig{
     private int frameNummer;
 
@@ -9,12 +11,19 @@ public class Fiets extends Voertuig{
     }
 
     public double huidigeWaarde(){
-        return 0.0;
+        return super.huidigeWaarde(0.9);
     }
 
-    public boolean equals(Object object){
+    public boolean equals(Object andereObject){
         boolean gelijk = false;
 
+        if(andereObject instanceof Fiets){
+            Fiets ownedBike = (Fiets) andereObject;
+            if(super.equal(andereObject) &&
+                    this.frameNummer == ownedBike.frameNummer){
+                gelijk = true;
+            }
+        }
         return gelijk;
     }
 

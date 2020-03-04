@@ -18,18 +18,14 @@ public class Persoon {
     }
 
     public boolean koop(Game newGame){
-        if(!games.isEmpty()){
-            for(Game game : games){
-                if(game.equals(newGame)){return false;} //false --> niet gelukt!
+        if(!games.contains(newGame)){
+            if(budget >= newGame.huidigeWaarde()){
+                games.add(newGame);
+                budget = budget- newGame.huidigeWaarde();
+                return true;
             }
         }
-
-        double huidigeWaarde = newGame.huidigeWaarde();
-
-        if(budget < huidigeWaarde){return false;} //false --> niet gelukt!
-        budget = budget - huidigeWaarde;
-        games.add(newGame);
-        return true; //true --> wel gelukt!
+        return false;
     }
 
     public boolean verkoop(Game sellingGame, Persoon koper){
