@@ -26,19 +26,12 @@ public class College {
     public String getNaam(){
         return naam;
     }
-    public int getCode(){
-        return collegeCode;
-    }
-    public CollegeType getType(){
-        return collegeType;
-    }
-
+    public CollegeType getType(){return collegeType;}
 
     public void voegDocentToe(Docent docent){
         if(docenten.isEmpty()){docenten.add(docent);}
         else if(docenten.contains(docent)){System.out.println("College already contains " + docent.toString());}
         else{docenten.add(docent);}
-
     }
 
     public void voegKlasToe(Klas klas){

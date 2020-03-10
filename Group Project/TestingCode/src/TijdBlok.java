@@ -1,5 +1,4 @@
 import java.sql.Time;
-import java.util.Date;
 
 public enum TijdBlok {
     ochtendBlok(new Time(8, 30, 0),new Time(11, 30, 0)),

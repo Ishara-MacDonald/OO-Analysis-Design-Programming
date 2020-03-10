@@ -8,7 +8,7 @@ public class ZiekMelding {
 
     public ZiekMelding(Student student){
         this.student = student;
-    };
+    }
 
     public void setBeginDatum(Date beginDatum){this.beginDatum = beginDatum;}
     public void setEindDatum(Date eindDatum){this.eindDatum = eindDatum;}
