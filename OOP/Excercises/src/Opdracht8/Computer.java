@@ -11,7 +11,6 @@ public class Computer implements Goed {
     private String macAdres;
     private double aanschafPrijs;
     private int productieJaar;
-    int huidigJaar = LocalDate.now().getYear();
 
     public Computer(String type, String macAdres, double aanschafPrijs, int productieJaar){
         this.type = type;
@@ -23,7 +22,7 @@ public class Computer implements Goed {
     public String getType(){return type;}
 
     public double huidigeWaarde() {
-        int verschilJaar = productieJaar - huidigJaar;
+        int verschilJaar = productieJaar - LocalDate.now().getYear();
         double huidigePrijs = aanschafPrijs;
 
         for(int i = 0; i <= verschilJaar; i++){
@@ -49,7 +48,7 @@ public class Computer implements Goed {
     }
 
     public String toString(){
-        String euro = "\u20AC";
-        return String.format("Computer: %s, gemaakt in %d heeft een waarde van: %s%.2f, met mac adres %s",type, productieJaar, euro, huidigeWaarde(), macAdres);
+        String utilsToepassen = Utils.euroBedrag(huidigeWaarde());
+        return String.format("Computer: %s, gemaakt in %d heeft een waarde van: %s, met mac adres %s",type, productieJaar, utilsToepassen, macAdres);
     }
 }

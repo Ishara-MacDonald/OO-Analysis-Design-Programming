@@ -8,7 +8,6 @@ public abstract class Voertuig implements Goed{
 
     protected double nieuwprijs;
     protected int bouwjaar;
-    int huidigJaar = LocalDate.now().getYear();
 
     public Voertuig(String type, double nieuwprijs, int bouwjaar){
         this.type = type;
@@ -19,7 +18,7 @@ public abstract class Voertuig implements Goed{
     public String getType(){ return type;}
 
     public double huidigeWaarde(double percentage){
-        int verschilJaar = bouwjaar - huidigJaar;
+        int verschilJaar = bouwjaar - LocalDate.now().getYear();;
         double huidigePrijs = nieuwprijs;
 
         for(int i = 0; i <= verschilJaar; i++){
@@ -44,8 +43,8 @@ public abstract class Voertuig implements Goed{
     }
 
     public String toString(){
-        String euro = "\u20AC";
-        return String.format("Voertuig: %s met bouwjaar %d heeft een waarde van: %s%.2f.",type, bouwjaar, euro, this.huidigeWaarde());
+        String utilsToepassen = Utils.euroBedrag(this.huidigeWaarde(), 4);
+        return String.format("Voertuig: %s met bouwjaar %d heeft een waarde van: %s.",type, bouwjaar, utilsToepassen);
     }
 
 }
