@@ -34,8 +34,7 @@ public class OverzichtLuchthavensController implements Initializable {
 
     private LuchtvaartMaatschappij lvm = LuchtvaartMaatschappij.getCurrentLuchtvaartMaatschappij();
     private ObservableList<OverzichtLuchthavensDataModel> dataList;
-
-
+    
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         fillDataList();
