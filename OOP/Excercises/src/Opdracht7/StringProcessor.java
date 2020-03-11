@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 //Maakt bewerkingen op een stuk tekst/ String.
 public class StringProcessor {
-    private ArrayList<OpmaakProces> processen = new ArrayList<OpmaakProces>();
+    private ArrayList<OpmaakProces> processen = new ArrayList<>();
 
     public StringProcessor(){}
 
