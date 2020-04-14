@@ -18,13 +18,12 @@ public class Persoon {
     }
 
     public boolean koop(Game newGame){
-        if(!games.contains(newGame)){
-            if(budget >= newGame.huidigeWaarde()){
-                games.add(newGame);
-                budget = budget- newGame.huidigeWaarde();
-                return true;
-            }
+        if(!games.contains(newGame) && budget >= newGame.huidigeWaarde()){
+            games.add(newGame);
+            budget = budget- newGame.huidigeWaarde();
+            return true;
         }
+
         return false;
     }
 
@@ -71,4 +70,9 @@ public class Persoon {
 
         return persoon + game;
     }
+
+
+
 }
+
+

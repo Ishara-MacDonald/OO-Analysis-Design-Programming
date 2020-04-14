@@ -22,6 +22,7 @@ public class Game {
     public double huidigeWaarde(){
         int verschilJaar = huidigJaar - releaseJaar;
         double huidigePrijs = nieuwPrijs;
+
         for(int i = 0; i < verschilJaar; i++) {
             huidigePrijs = huidigePrijs * 0.7;
         }
